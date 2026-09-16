@@ -591,8 +591,8 @@ function Invoke-Activate {
     $vLabel = if ($tsVersion) { "version $tsVersion  ready" } else { "ready" }
     Write-Host ""
     Write-Host "  +---------------------------------------------+" -ForegroundColor Cyan
-    Write-Host "  |  _____  ___   ___  _     ____  _____   ____ |" -ForegroundColor Cyan
-    Write-Host "  | |_   _|/ _ \ / _ \| |  / ___| |  ___| |_  _||" -ForegroundColor Cyan
+    Write-Host "  |  _____  ___   ___  _     ____  _____  _____ |" -ForegroundColor Cyan
+    Write-Host "  | |_   _|/ _ \ / _ \| |  / ___| |  ___||_   _||" -ForegroundColor Cyan
     Write-Host "  |   | | | | | | | | | |   \___ \|  _|    | |  |" -ForegroundColor Cyan
     Write-Host "  |   | | | |_| | |_| | |___ ___) | |___   | |  |" -ForegroundColor Cyan
     Write-Host "  |   |_|  \___/ \___/|_____|____/|_____|  |_|  |" -ForegroundColor Cyan
